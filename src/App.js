@@ -21,8 +21,8 @@ function App() {
     <div className="App">
       <Header />
       <div className='row'>
-        <Gallery products={products} />
-        <Cart cartItems={cartItems} />
+        <Gallery onAdd={onAdd} products={products} />
+        <Cart onAdd={onAdd} cartItems={cartItems} />
       </div>
     </div>
   );

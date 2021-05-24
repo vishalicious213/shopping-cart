@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Cart(props) {
-    const { cartItems } = props
+    const { cartItems, onAdd } = props
 
     return (
         <aside className='block col-1'>
