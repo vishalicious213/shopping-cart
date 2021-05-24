@@ -55,3 +55,7 @@ a:hover {
   justify-content: space-between;
   width: 7rem;
 }
+
+img.small {
+  max-height: 8rem;
+}
